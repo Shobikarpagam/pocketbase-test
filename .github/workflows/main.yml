@@ -23,4 +23,4 @@ jobs:
       # Run the PocketBase server
       - name: Start PocketBase
         run: |
-          ./pocketbase serve
+          ./pocketbase serve --http 0.0.0.0:8080
